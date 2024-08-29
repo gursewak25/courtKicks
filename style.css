@@ -11,7 +11,7 @@ body {
 }
 
 body.dark-mode {
-    background-color: #6e6e6e;
+    background-color: #a1a1a1;
     color: #f0f0f0;
     /* Dark mode text color */
 }
@@ -506,7 +506,7 @@ body.dark-mode .spinner1 {
 }
 
 body.dark-mode .frontext {
-    color: rgb(38, 38, 38);
+    color: rgb(72, 72, 72);
 }
 
 .kicks {
@@ -523,7 +523,7 @@ body.dark-mode .frontext {
 
 body.dark-mode .kicks {
     font-weight: bolder;
-    color: #717171;
+    color: #313131;
     text-shadow: 1px 1px 2px rgb(210, 210, 210), 0 0 1em rgba(68, 68, 68, 0.673), 0 0 0.2em rgba(36, 36, 36, 0.636);
 }
 
@@ -538,6 +538,7 @@ body.dark-mode .kicks {
     font-size: 60px;
     color: white;
     margin: 0 0 5vw 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 @media (max-width: 700px) {
