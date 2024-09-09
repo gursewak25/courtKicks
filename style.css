@@ -16,6 +16,23 @@ body.dark-mode {
     /* Dark mode text color */
 }
 
+@font-face {
+    font-family: 'Lemon Milk';
+    src: url('/path/to/fonts/LemonMilk-Regular.woff2') format('woff2'),
+         url('/path/to/fonts/LemonMilk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Importing Futura font */
+@font-face {
+    font-family: 'Futura';
+    src: url('/path/to/fonts/Futura.woff2') format('woff2'),
+         url('/path/to/fonts/Futura.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .loader {
     height: 100vh;
     width: 100vw;
